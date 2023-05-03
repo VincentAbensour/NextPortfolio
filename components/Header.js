@@ -46,7 +46,7 @@ const Navbar = () => {
         <div class="flex flex-wrap items-center justify-between mx-auto p-2">
           <motion.div  animate={{y:0, opacity:1}} initial={{y:-100, opacity:0}} transition={{ease: "linear", duration:0.5}}>
           <Link href="/" id="#logo" className="flex items-center">
-              <img src='/logo/logo.png' width={50} alt="Flowbite Logo"></img>
+              <Image src='/logo/logo.png' width={50} height={50} alt="Logo de Vincent Abensour"/>
           </Link>
           </motion.div>
           {
