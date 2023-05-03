@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   const handleClick = () => {
-    setNav(!nav)
+    setNav(!nav);
   }
 
   useEffect(() => {
@@ -83,10 +83,10 @@ const Navbar = () => {
     </nav>
     <div className={`fixed inset-y-0 bg-customclearblue w-3/5 sm:w-1/2 h-screen flex flex-col justify-center items-center duration-300 ease-in-out z-50' md:hidden + ${nav===false ? "-translate-x-96" : ""}`}>
       <div className="flex flex-col gap-6">
-        <ul className="list-none">
-            <li class="nav-list-phone"><Link href="/#about-section">A propos</Link></li>
-            <li class="nav-list-phone"><Link href="/#projects-section">Projets</Link></li>
-            <li class="nav-list-phone"><Link href="/#contact-section">Me Contacter</Link></li>
+        <ul className="list-none" onclick={handleClick}>
+            <li onClick={handleClick} class="nav-list-phone"><Link href="/#about-section">A propos</Link></li>
+            <li onClick={handleClick} class="nav-list-phone"><Link href="/#projects-section">Projets</Link></li>
+            <li onClick={handleClick} class="nav-list-phone"><Link href="/#contact-section">Me Contacter</Link></li>
         </ul>
         <a href="media/CV_Vincent_Abensour.pdf" class="button resume-link">Mon CV</a>
       </div>
