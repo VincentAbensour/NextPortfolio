@@ -31,7 +31,7 @@ export default function Projects() {
                     <p class="text-customtexthighlight md:self-end">Projet Personnel</p>
                     <h3 className='md:self-end'>Chat-Project</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Une application web de chat en ligne. Vous pouvez vous créer un compte, inviter d'autres utilisateurs dans vos channels et refaire le monde!</p>
+                        <p className='md:text-right'>Une application web de chat en ligne. Vous pouvez vous créer un compte, inviter d&apos;autres utilisateurs dans vos channels et refaire le monde!</p>
                         <br/>
                         <p className='md:text-right'> Une application créée avec une API <span class="text-customtexthighlight">Django Rest Framework</span> et une application <span class="text-customtexthighlight">React</span></p>
                     </div>
@@ -60,7 +60,7 @@ export default function Projects() {
                     <h3 className='md:self-end'>Farmer-Ecommerce</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
                         <p className='md:text-right'>Un site de vente en ligne créé pour aider des mairachers à vendre leurs paniers de légumes en ligne.
-                            Chaque semaine les clients peuvent se créer un panier dans la limite du stock proposé par le mairacher. Le site fourni un récapitulaitf de récolte et un système d'envoie de mail pour prévenir de la disponibilité des paniers.
+                            Chaque semaine les clients peuvent se créer un panier dans la limite du stock proposé par le mairacher. Le site fourni un récapitulaitf de récolte et un système d&apos;envoie de mail pour prévenir de la disponibilité des paniers.
                         </p>
                         <br/>
                         <p className='md:text-right'>Une application créée avec <span class="text-customtexthighlight">Django</span> et <span class="text-customtexthighlight">Bootstrap</span>.</p>

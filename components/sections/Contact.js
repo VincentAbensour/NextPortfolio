@@ -11,7 +11,7 @@ export default function Contact() {
         <h2 class="text-customtexthighlight my-5">Rencontrons nous!</h2>
 
         <p>Je suis toujours à la recherche de nouvelles opportunités!
-        Si vous avez un projet web et que vous êtes à la recherche d'un développeur sympa et plein d'idées je pourrais être votre Dave.
+        Si vous avez un projet web et que vous êtes à la recherche d&apos;un développeur sympa et plein d&apos;idées je pourrais être votre Dave.
         Envoyez moi un message et on en discutera!</p>
         <div class="mt-8 flex flex-col self-center">
             <Button text='Me Contacter' link="mailto:vincentabensour@yahoo.fr"/>
