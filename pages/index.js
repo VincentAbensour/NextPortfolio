@@ -9,6 +9,7 @@ import Hero from '@component/components/sections/Hero';
 import AboutMe from '@component/components/sections/AboutMe';
 import Projects from '@component/components/sections/Projects';
 import Contact from '@component/components/sections/Contact';
+import IndexPage from '@component/components/Head';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
 
   return (
     <>
+    <IndexPage title="Vincent Abensour"/>
     <motion.div animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'linear', duration:1, delay:1.8}}>
         <RightSide/>
         <LeftSide/>

@@ -12,7 +12,6 @@ export default function AboutMe() {
         <div>
             <motion.p className='mb-4 lg:mb-8' initial={{opacity:0, x:20}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.2}} viewport={{ once: true }}>Hello! je m&apos;appelle <span class="text-highlight">Vincent</span> et je suis un développeur web full-stack auto-didacte. J&apos;ai commencé ma carrière dans le développement de projet, plus particulièrement pour des associations et des entreprises à impact social et environnemental.
                 La première fois que j&apos;ai vu une ligne de code était pour un projet de sensibilisation à la qualité de l&apos;air
-                The first time I saw a line of code was for programming an air quality sensor for an awareness project.
                 A partir de là mon intérêt pour le développement web n&apos;a cessé de grandir et je me suis logiquement mis à apprendre le HTML, CSS et le JavaScript!
             </motion.p>
 
