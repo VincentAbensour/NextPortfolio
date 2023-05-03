@@ -68,17 +68,14 @@ const Navbar = () => {
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="font-medium flex flex-row space-x-8 list-none dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <motion.li animate={{y:0, opacity:1}} initial={{y:-100, opacity:0}} transition={{delay:0.2, ease: "linear", duration:0.5}}>
-                <Link href="/#about-section" class="nav-list-computer block py-2 pl-3 pr-4 md:p-0 dark:text-white" aria-current="page">About Me</Link>
+                <NavItem message="A propos" link="/#about-section"/>
               </motion.li>
               <motion.li animate={{y:0, opacity:1}} initial={{y:-100, opacity:0}} transition={{delay:0.4,  ease: "linear", duration:0.5}}>
-                <Link href="/#projects-section" class="nav-list-computer block py-2 pl-3 pr-4 md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</Link>
+                <NavItem message="Projets" link="/#projects-section"/>
               </motion.li>
               <motion.li animate={{y:0, opacity:1}} initial={{y:-100, opacity:0}} transition={{delay:0.6,  ease: "linear", duration:0.5}}>
-                <Link href="/#contact-section" class="nav-list-computer block py-2 pl-3 pr-4 md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
+                <NavItem message="Me Contacter" link="/#contact-section"/>
               </motion.li>
-              <li>
-              <NavItem message="About Me" link="/#contact-section"/>
-              </li>
             </ul>
           </div>
         </div>
@@ -86,12 +83,12 @@ const Navbar = () => {
     </nav>
     <div className={`fixed inset-y-0 bg-customclearblue w-3/5 sm:w-1/2 h-screen flex flex-col justify-center items-center duration-300 ease-in-out z-50' md:hidden + ${nav===false ? "-translate-x-96" : ""}`}>
       <div className="flex flex-col gap-6">
-        <ul id="nav-list">
-            <li class="nav-list" id="about-nav-list"><Link href="/#about-section">About Me</Link></li>
-            <li class="nav-list" id="projects-nav-list"><Link href="/#projects-section">Projects</Link></li>
-            <li class="nav-list" id="contact-nav-list"><Link href="/#contact-section">Contact</Link></li>
+        <ul className="list-none">
+            <li class="nav-list-phone"><Link href="/#about-section">A propos</Link></li>
+            <li class="nav-list-phone"><Link href="/#projects-section">Projets</Link></li>
+            <li class="nav-list-phone"><Link href="/#contact-section">Me Contacter</Link></li>
         </ul>
-        <a href="media/CV_Vincent_Abensour.pdf" class="button resume-link">Resume</a>
+        <a href="media/CV_Vincent_Abensour.pdf" class="button resume-link">Mon CV</a>
       </div>
     </div>
     </>

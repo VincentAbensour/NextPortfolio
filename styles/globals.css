@@ -26,7 +26,7 @@ body{
 
   h1 {
     @apply text-customclearblue font-semibold;
-    @apply text-4xl sml:text-6xl lg:text-7xl xl:text-8xl;
+    @apply text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl;
     @apply my-3 sml:my-4;
   }
   h2 {
@@ -61,13 +61,15 @@ body{
   }
 
   .button{
-    @apply bg-gradient-to-l from-gradientblue to-gradientgreen hover:bg-blue-700 text-customdarkblue font-bold py-2 px-4 rounded;
-    @apply font-normal;
+    @apply bg-gradient-to-l from-gradientblue to-gradientgreen hover:from-blue-900 hover:to-blue-400 text-customdarkblue hover:text-customwhite rounded shadow-md;
+    @apply py-2 px-4 sm:py-3 sm:px-6 lgl:py-4 lgl:px-8 text-center;
+    @apply text-sm sm:text-base lgl:text-lg;
   }
 
-  .nav-list{
+  .nav-list-phone{
     @apply text-xl md:text-2xl lg:text-4xl;
     @apply my-6;
+    @apply active:text-customtexthighlight;
   }
 
   .nav-list-computer{
