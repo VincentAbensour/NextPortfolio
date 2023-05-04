@@ -84,9 +84,9 @@ const Navbar = () => {
     <div className={`fixed inset-y-0 bg-customclearblue w-3/5 sm:w-1/2 h-screen flex flex-col justify-center items-center duration-300 ease-in-out z-50' md:hidden + ${nav===false ? "-translate-x-96" : ""}`}>
       <div className="flex flex-col gap-6">
         <ul className="list-none" onClick={handleClick}>
-            <li onClick={handleClick} className="nav-list-phone"><Link href="/#about-section">A propos</Link></li>
-            <li onClick={handleClick} className="nav-list-phone"><Link href="/#projects-section">Projets</Link></li>
-            <li onClick={handleClick} className="nav-list-phone"><Link href="/#contact-section">Me Contacter</Link></li>
+            <li onClick={handleClick} className="nav-list-phone"><Link href="/#about-section" scroll={false}>A propos</Link></li>
+            <li onClick={handleClick} className="nav-list-phone"><Link href="/#projects-section" scroll={false}>Projets</Link></li>
+            <li onClick={handleClick} className="nav-list-phone"><Link href="/#contact-section" scroll={false}>Me Contacter</Link></li>
         </ul>
         <a href="media/CV_Vincent_Abensour.pdf" className="button resume-link">Mon CV</a>
       </div>
