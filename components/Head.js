@@ -10,7 +10,7 @@ function IndexPage(props) {
           content="Mon site personnel où vous pourrez retrouver mes projets, ma bio et me contacter!"
           key="desc"
         />
-        <link rel="icon" type="image/png" src="/logo/logo.png" />
+        <link rel="icon" type="image/png" href="/logo/logo.png" />
       </Head>
   )
 }
