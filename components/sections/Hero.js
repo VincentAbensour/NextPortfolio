@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <motion.div className='relative flex flex-col m-auto py-4'>
 
-        <motion.div drag animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'easeInOut', duration:1, delay:0.8}} className="animate-pulse absolute rounded-[100%] inset-x-0 -top-40 z-50 transform-gpu overflow-hidden blur-3xl sm:-top-40" aria-hidden="true">
+        <motion.div drag animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'easeInOut', duration:1, delay:0.8}} className="animate-pulse absolute rounded-[100%] inset-x-0 -top-40 transform-gpu overflow-hidden blur-3xl sm:-top-40" aria-hidden="true">
           <div className="cursor-pointer relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[90deg] rounded-[100%] bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-30 sm:left-[calc(30%-30rem)] sm:w-[80rem]"></div>
         </motion.div>
         <motion.div animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'easeInOut', duration:1, delay:0.9}} class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
