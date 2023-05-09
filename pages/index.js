@@ -26,7 +26,7 @@ export default function Home() {
     </motion.div>
     <div id="content" className='w-4/5 m-auto xl:w-4/6'>
 
-        <section id="hero-section" className='min-h-screen flex items-center pt-6 sm:pt-10 xl:w-5/6 m-auto'>
+        <section id="hero-section" className='min-h-screen flex items-center pt-10 xl:w-5/6 m-auto'>
           <Hero/>
         </section>
 
