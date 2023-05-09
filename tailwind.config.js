@@ -28,7 +28,8 @@ module.exports = {
         customtexthighlight: "#00FFD5",
         customheader: "#ffffff1a",
         gradientblue:"rgba(130,255,234)",
-        gradientgreen:"rgb(0, 255, 130)"
+        gradientgreen:"rgb(0, 255, 130)",
+        gradientflashgreen:"rgb(0, 255, 50)"
       },
     },
   },
