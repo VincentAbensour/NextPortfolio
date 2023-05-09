@@ -20,7 +20,7 @@ export default function Projects() {
         <h2 id="projects-title" className='text-center'><span className='text-customtexthighlight'> - </span>Mes projets<span className='text-customtexthighlight'> - </span></h2>
 
         <div className='bg-custombluegrey shadow-2xl rounded-sm p-2 my-12 mx-auto w-4/5 max-w-xs md:shadow-none md:bg-transparent md:max-w-5xl md:w-full md:grid md:grid-cols-12 md:mt-8'>
-            <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0' >
+            <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0 transition ease-in-out duration-500' >
                 <img src="/projects/chat-login.png" alt='Screen shot of the loginpage from the chat project' className={`row-span-full col-span-full + ${countChat === 1 ? "block" : "hidden"}`}/>
                 <img src="/projects/chat-register.png" alt='Screen shot of the registerpage from the chat project' className={`row-span-full col-span-full + ${countChat === 2 ? "block" : "hidden"}`}/>
                 <img src="/projects/chat-home.png" alt='Screen shot of the homepage from the chat project' className={`row-span-full col-span-full + ${countChat === 3 ? "block" : "hidden"}`}/>
@@ -47,7 +47,7 @@ export default function Projects() {
 
         <div className='bg-custombluegrey shadow-2xl rounded-sm p-2 my-4 mx-auto w-4/5 max-w-xs md:shadow-none md:bg-transparent md:max-w-5xl md:w-full md:grid md:grid-cols-12 md:mt-8'>
 
-            <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0' >
+            <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0 transition ease-in-out duration-500' >
                 <img src="/projects/ecom-home.png" alt='Screen shot of the homepage from the Ecommerce project' className={`row-span-full col-span-full + ${countEcom === 1 ? "block" : "hidden"}`}/>
                 <img src="/projects/ecom-cart.png" alt='Screen shot of the cartpage from the Ecommerce project' className={`row-span-full col-span-full + ${countEcom === 2 ? "block" : "hidden"}`}/>
                 <img src="/projects/ecom-market.png" alt='Screen shot of the marketpage from the Ecommerce project' className={`row-span-full col-span-full + ${countEcom === 3 ? "block" : "hidden"}`}/>

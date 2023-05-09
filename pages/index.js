@@ -15,6 +15,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  const [ping, setPing] = useState(false)
+
   return (
     <>
     <IndexPage title="Vincent Abensour"/>
@@ -24,12 +26,13 @@ export default function Home() {
     </motion.div>
     <div id="content" className='w-4/5 m-auto xl:w-4/6'>
 
-        <section id="hero-section" className='min-h-screen flex items-center pt-6 xl:w-5/6 m-auto'>
+        <section id="hero-section" className='min-h-screen flex items-center pt-6 sm:pt-10 xl:w-5/6 m-auto'>
           <Hero/>
         </section>
 
 
-        <section id="about-section" className='my-4 mx-auto sm:w-4/5 lg:w3/5 max-w-xl'>
+        <section id="about-section" className='relative my-4 mx-auto sm:w-4/5 lg:w3/5 max-w-xl'>
+          <motion.div onClick={()=>{setPing(!ping)}} className={`absolute top-[30%] -left-[40%] rounded-full w-80 h-56 blur-3xl bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-50 cursor-pointer + ${ping && "animate-ping"}`}></motion.div>
           <AboutMe/>
         </section>
 

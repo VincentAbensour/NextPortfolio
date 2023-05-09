@@ -1,30 +1,45 @@
-import React from 'react'
+import {React} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import {motion} from 'framer-motion'
+import {motion, useScroll, useTransform  } from 'framer-motion'
 
 export default function Hero() {
+
+    const {scrollY} = useScroll();
+    let fastP = useTransform(scrollY, [0,500], ["0%","-50%"])
+    let mediumP = useTransform(scrollY, [0,500], ["0%","-50%"])
+    let slowP = useTransform(scrollY, [0,500], ["0%","10%"])
+
   return (
-    <div className='flex flex-col m-auto py-4'>
-        <div className='mb-2'>
+    <motion.div className='relative flex flex-col m-auto py-4'>
+
+        <motion.div drag animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'easeInOut', duration:1, delay:0.8}} className="animate-pulse absolute rounded-[100%] inset-x-0 -top-40 z-50 transform-gpu overflow-hidden blur-3xl sm:-top-40" aria-hidden="true">
+          <div className="cursor-pointer relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[90deg] rounded-[100%] bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-30 sm:left-[calc(30%-30rem)] sm:w-[80rem]"></div>
+        </motion.div>
+        <motion.div animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'easeInOut', duration:1, delay:0.9}} class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+            <div className="animate-pulse relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#4624a1] to-[#12ddc2] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
+        </motion.div>
+
+        <motion.div className='mb-2 relative' style={{y : fastP}}>
             <motion.h4 animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:0.8}}>Salut, je suis</motion.h4>
             <motion.h1 className='gradient-text' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1}}>Vincent </motion.h1>
             <motion.h1 className='gradient-text' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.2}}>Abensour</motion.h1>
             <motion.h4 animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.4}}>Je crée des sites internets</motion.h4>
-        </div>
-        <motion.div className='mb-2 lg:w-4/5' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.6}}>
+        </motion.div>
+        <motion.div className='mb-2 relative lg:w-4/5' style={{y : mediumP}} animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.6}}>
             <p>
                 Je suis <span className='text-customtexthighlight'>développeur web fullstack</span> en freelance et je crée et design des sites responsive. Je suis toujours à l&apos;écoute de nouveax projets! Si vous avez besoin d&apos;aide pour votre présence sur internet que soit pour un site vitrine ou une application web vous pouvez <a href="mailto:vincentabensour@yahoo.fr" className="text-customtexthighlight">me conctacter</a>!
             </p>
         </motion.div>
-        <div className='self-center flex flex-col'>
+        <motion.div className='relative self-center flex flex-col' style={{y : slowP}}>
             <motion.h4 className="text-gradientgreen sm:mb-4 lg:mb-6 md:mt-8" animate={{y:0, opacity:1}} initial={{y:-20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.8}}>On passe à la suite?</motion.h4>
             <Link href="#about-section" className="self-center" scroll={false}>
                 <motion.div animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.8}}>
                     <Image src="/icons/triangle.png" alt="Triangle that lead to the next page" width={50} height={50} className='duration-300 ease-in-out hover:translate-y-4'></Image>
                 </motion.div>
             </Link>
-        </div>
-    </div>
+        </motion.div>
+
+    </motion.div>
   )
 }
