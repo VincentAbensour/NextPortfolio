@@ -33,7 +33,7 @@ export default function Hero() {
         </motion.div>
         <motion.div className='relative self-center flex flex-col' style={{y : slowP}}>
             <motion.h4 className="text-gradientgreen sm:mb-4 lg:mb-6 md:mt-8" animate={{y:0, opacity:1}} initial={{y:-20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.8}}>On passe à la suite?</motion.h4>
-            <Link href="#about-section" className="self-center" scroll={false}>
+            <Link href="#projects-section" className="self-center" scroll={false}>
                 <motion.div animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.8}}>
                     <Image src="/icons/triangle.png" alt="Triangle that lead to the next page" width={50} height={50} className='duration-300 ease-in-out hover:translate-y-4'></Image>
                 </motion.div>

@@ -30,17 +30,18 @@ export default function Home() {
           <Hero/>
         </section>
 
-
-        <section id="about-section" className='relative my-4 mx-auto sm:w-4/5 lg:w3/5 max-w-xl'>
-          <motion.div onClick={()=>{setPing(!ping)}} className={`absolute top-[30%] -left-[40%] rounded-full w-80 h-56 blur-3xl bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-50 cursor-pointer + ${ping && "animate-ping"}`}></motion.div>
-          <AboutMe/>
-        </section>
-
         <section id="projects-section" className='my-8'>
 
             <Projects/>
 
         </section>
+        
+        <section id="about-section" className='relative my-4 mx-auto sm:w-4/5 lg:w3/5 max-w-xl'>
+          <motion.div onClick={()=>{setPing(!ping)}} className={`absolute top-[30%] -left-[40%] rounded-full w-80 h-56 blur-3xl bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-50 cursor-pointer + ${ping && "animate-ping"}`}></motion.div>
+          <AboutMe/>
+        </section>
+
+
 
         <section id="contact-section" className='h-screen flex items-center max-w-4xl m-auto'>
             <Contact/>
