@@ -88,7 +88,6 @@ const Navbar = () => {
             <li onClick={handleClick} className="nav-list-phone"><Link href="/#projects-section" scroll={false}>Projets</Link></li>
             <li onClick={handleClick} className="nav-list-phone"><Link href="/#contact-section" scroll={false}>Me Contacter</Link></li>
         </ul>
-        <a href="media/CV_Vincent_Abensour.pdf" className="button resume-link">Mon CV</a>
       </div>
     </div>
     </>

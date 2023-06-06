@@ -14,7 +14,7 @@ export default function Contact() {
         Si vous avez un projet web et que vous êtes à la recherche d&apos;un développeur sympa et plein d&apos;idées je pourrais être votre Dave.
         Envoyez moi un message et on en discutera!</p>
         <div className="mt-8 flex flex-col self-center">
-            <Button text='Me Contacter' link="mailto:vincentabensour@yahoo.fr"/>
+            <Button text='Me Contacter' link="mailto:abensour.web@gmail.com"/>
             <div className='flex gap-2 self-center mt-8 md:mt-12'>
                 <Link href="https://www.linkedin.com/in/vincent-abensour-0a477a176/" className='w-[50px] h-[50px] hover:animate-bounce'>
                     <Image width={40} height={40} src="/icons/linkedin-icon.png" alt="Icon of linkedin" className='m-auto'></Image>

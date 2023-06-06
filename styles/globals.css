@@ -21,7 +21,7 @@ body{
 @layer base {
 
   .gradient-text{
-    @apply text-transparent bg-clip-text bg-gradient-to-br from-gradientblue to-gradientflashgreen;
+    @apply text-transparent bg-clip-text bg-gradient-to-brqqqqqqqqqqqqqqqqqqqqqqq from-gradientblue to-gradientflashgreen;
   }
 
   h1 {
