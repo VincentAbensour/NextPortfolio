@@ -32,7 +32,7 @@ export default function Projects() {
                     <p className="text-customtexthighlight md:self-end">Projet Personnel</p>
                     <h3 className='md:self-end'>Ecommerce - Artisan</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Un template de site e-commerce pour à partir du travail d'une créatrice de chaussures artisanales. Le template comprend un page d'accueil, une page pour le sproduits et le nécessaire pour un compte client.</p>
+                        <p className='md:text-right'>Un template de site e-commerce à partir du travail d'une créatrice de chaussures artisanales. Le template comprend une page d'accueil, une page pour les produits et le nécessaire pour un compte client.</p>
                         <br/>
                         <p className='md:text-right'> Une application créée avec <span className="text-customtexthighlight">Next.js</span> et <span className="text-customtexthighlight">Tailwind.CSS</span></p>
                     </div>
