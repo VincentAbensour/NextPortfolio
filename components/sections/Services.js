@@ -32,7 +32,7 @@ function Services() {
                 </motion.div>
                 <motion.div className="lgl:max-w-[400px]" initial={{opacity:0, x:30}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.8}} viewport={{ once: true }}>
                     <div className='flex items-center justify-between'>
-                        <h4 className='mr-2'>Sites dynamiques et responsive</h4>
+                        <h4 className='mr-2'>Sites dynamiques et responsives</h4>
                         <FaDesktop style={{color:"#00FFD5","font-size":"30px"}}/>
                     </div>
                     <p className='w-5/6'>Des sites responsives avec des animations discrètes mais efficaces pour attirer l&apos;oeil!</p>
