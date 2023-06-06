@@ -20,7 +20,7 @@ function Services() {
                         <h4 className='grow mr-2'>Conception sur mesure</h4>
                         <FaPaintBrush style={{color:"#00FFD5","font-size":"30px"}}/>
                     </div>
-                    <p className='w-5/6'>Une conception qui s'adapte à vos envies et vos besoins grâce à un lien fort avec vous pendant le processus de création.</p>
+                    <p className='w-5/6'>Une conception qui s&apos;adapte à vos envies et vos besoins grâce à un lien fort avec vous pendant le processus de création.</p>
                 </motion.div>
 
                 <motion.div className="lgl:max-w-[400px]" initial={{opacity:0, x:-30}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.6}} viewport={{ once: true }}>
@@ -35,7 +35,7 @@ function Services() {
                         <h4 className='mr-2'>Sites dynamiques et responsive</h4>
                         <FaDesktop style={{color:"#00FFD5","font-size":"30px"}}/>
                     </div>
-                    <p className='w-5/6'>Des sites responsives avec des animations discrètes mais efficaces pour attirer l'oeil!</p>
+                    <p className='w-5/6'>Des sites responsives avec des animations discrètes mais efficaces pour attirer l&apos;oeil!</p>
                 </motion.div>
 
         </div>
