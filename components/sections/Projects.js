@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from 'next/image';
-import { BiLinkExternal } from 'react-icons/Bi';
+import { BiLinkExternal } from "react-icons/bi";
 
 
 
