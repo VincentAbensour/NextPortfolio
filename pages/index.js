@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Inter } from 'next/font/google'
 import {motion} from 'framer-motion'
 import LeftSide from '@component/components/LeftSide';
@@ -10,12 +10,11 @@ import AboutMe from '@component/components/sections/AboutMe';
 import Projects from '@component/components/sections/Projects';
 import Contact from '@component/components/sections/Contact';
 import IndexPage from '@component/components/Head';
+import Services from '@component/components/sections/Services';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-
-  const [ping, setPing] = useState(false)
 
   return (
     <>
@@ -30,14 +29,16 @@ export default function Home() {
           <Hero/>
         </section>
 
-        <section id="projects-section" className='my-8'>
-
-            <Projects/>
-
+        <section id="services-section" className='sm:my-8'>
+            <Services/>
         </section>
-        
+
+        <section id="projects-section" className='my-4 sm:my-8'>
+            <Projects/>
+        </section>
+
         <section id="about-section" className='relative my-4 mx-auto sm:w-4/5 lg:w3/5 max-w-xl'>
-          <motion.div onClick={()=>{setPing(!ping)}} className={`absolute top-[30%] -left-[40%] rounded-full w-80 h-56 blur-3xl bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-50 cursor-pointer + ${ping && "animate-ping"}`}></motion.div>
+          <motion.div className={`absolute top-[30%] -left-[40%] rounded-full w-80 h-56 blur-3xl bg-gradient-to-tr from-[#16cf69] to-[#9089fc] opacity-[0.58] animate-pulse`}></motion.div>
           <AboutMe/>
         </section>
 
