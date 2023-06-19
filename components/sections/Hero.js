@@ -22,9 +22,9 @@ export default function Hero() {
 
         <motion.div className='mb-2 relative' style={{y : fastP}}>
             <motion.h4 animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:0.8}}>Salut, je suis</motion.h4>
-            <motion.h1 className='gradient-text' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1}}>Vincent </motion.h1>
-            <motion.h1 className='gradient-text' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.2}}>Abensour</motion.h1>
-            <motion.h4 animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.4}}>Je crée des sites internets</motion.h4>
+            <motion.h4 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1}}>Vincent </motion.h4>
+            <motion.h4 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.2}}>Abensour</motion.h4>
+            <motion.h1 className='text-lg sml:text-xl md:text-2xl lgl:text-3xl font-medium text-customclearblue' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.4}}>Je suis développeur web</motion.h1>
         </motion.div>
         <motion.div className='mb-2 relative lg:w-4/5' style={{y : mediumP}} animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.6}}>
             <p>

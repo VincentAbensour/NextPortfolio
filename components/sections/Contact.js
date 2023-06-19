@@ -6,8 +6,8 @@ import Button from '@component/components/Button';
 export default function Contact() {
   return (
 
-    <div className='flex flex-col sm:gap-2 md:gap-3 lgl:gap-4'>
-        <h1 className='gradient-text'>Et maintenant?</h1>
+    <div className='flex flex-col sm:gap-2 md:gap-3 lgl:gap-4 font-bold'>
+        <h2 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl'>Et maintenant?</h2>
         <h2 className="text-customtexthighlight my-5">Rencontrons nous!</h2>
 
         <p>Je suis toujours à la recherche de nouvelles opportunités!
