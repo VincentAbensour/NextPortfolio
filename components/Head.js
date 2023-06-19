@@ -8,7 +8,7 @@ function IndexPage(props) {
         <meta
           name="description"
           content="Mon site personnel où vous pourrez retrouver mes projets, ma bio et me contacter!"
-          key="desc"
+          keyword="desc"
         />
         <link rel="icon" type="image/png" href="/logo/logo.png" />
       </Head>

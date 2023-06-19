@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <>
-    <IndexPage title="Vincent Abensour"/>
+    <IndexPage title="Vincent Abensour | Développeur Web"/>
     <motion.div animate={{opacity:1}} initial={{opacity:0}} transition={{ease: 'linear', duration:1, delay:1.8}}>
         <RightSide/>
         <LeftSide/>
