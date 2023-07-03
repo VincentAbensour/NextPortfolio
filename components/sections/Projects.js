@@ -52,7 +52,7 @@ export default function Projects() {
             <div className='md:border-solid md:col-start-5 md:col-end-13 md:row-span-full md:z-10'>
                 <div className='flex flex-col md:pt-8 lgl:pt-0'>
                     <p className="text-customtexthighlight md:self-end">Projet Personnel</p>
-                    <h3 className='md:self-end'>Salle d'Escalade</h3>
+                    <h3 className='md:self-end'>Salle d&apos;Escalade</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
                         <p className='md:text-right'>Un template de site vitrine à partir du travail d&apos;une créatrice de chaussures artisanales. Le template comprend une page d&apos;accueil, une page pour les produits et le nécessaire pour un compte client.</p>
                         <br/>
