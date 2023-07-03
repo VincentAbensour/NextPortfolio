@@ -13,7 +13,7 @@ function Services() {
                         <h4 className='grow mr-2'>Gestion de projets Web</h4>
                         <FaRegLightbulb style={{color:"#00FFD5","font-size":"30px"}}/>
                     </div>
-                    <p className='w-5/6 relative z-10'>Mise en place de sites vitrines, marchands et de réservation au meilleur prix!</p>
+                    <p className='w-5/6 relative z-10'>Mise en place de sites vitrines, marchands et de réservation.</p>
                 </motion.div>
                 <motion.div className="lgl:max-w-[400px]" initial={{opacity:0, x:30}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.4}} viewport={{ once: true }}>
                     <div className='flex items-center'>

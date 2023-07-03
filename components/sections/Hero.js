@@ -28,7 +28,7 @@ export default function Hero() {
         </motion.div>
         <motion.div className='mb-2 relative lg:w-4/5' style={{y : mediumP}} animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.6}}>
             <p>
-                Je suis <span className='text-customtexthighlight'>développeur web fullstack</span> en freelance et je crée et design des sites responsive. Je suis toujours à l&apos;écoute de nouveax projets! Si vous avez besoin d&apos;aide pour votre présence sur internet que soit pour un site vitrine ou une application web vous pouvez <a href="mailto:abensour.web@gmail.com" className="text-customtexthighlight">me conctacter</a>!
+                Je suis <span className='text-customtexthighlight'>développeur web fullstack</span> en freelance basé en Haute-Loire et je crée et design des sites responsive. Je suis toujours à l&apos;écoute de nouveaux projets! Si vous avez besoin d&apos;aide pour votre présence sur internet que soit pour un site vitrine ou une application web vous pouvez <a href="mailto:abensour.web@gmail.com" className="text-customtexthighlight">me conctacter</a>!
             </p>
         </motion.div>
         <motion.div className='relative self-center flex flex-col' style={{y : slowP}}>
