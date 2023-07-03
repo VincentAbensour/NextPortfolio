@@ -32,7 +32,7 @@ export default function Projects() {
                     <p className="text-customtexthighlight md:self-end">Projet Professionel</p>
                     <h3 className='md:self-end'>Cabinet de Kinésithérapie</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Ce projet est une commande de Frédérique Bernard qui avait besoin d'un site vitrine pour son cabinet de kinésithérapie. Son contenu est facilement modifiable grâce à un accès à la base de donnée via une interface client très intuitive.</p>
+                        <p className='md:text-right'>Ce projet est une commande de Frédérique Bernard qui avait besoin d&apos;un site vitrine pour son cabinet de kinésithérapie. Son contenu est facilement modifiable grâce à un accès à la base de donnée via une interface client très intuitive.</p>
                         <br/>
                         <p className='md:text-right'> Une application créée avec <span className="text-customtexthighlight">Next.js</span> et <span className="text-customtexthighlight">Tailwind.CSS</span> et <span className="text-customtexthighlight">Strapi</span></p>
                     </div>
