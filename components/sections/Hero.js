@@ -21,14 +21,14 @@ export default function Hero() {
         </motion.div>
 
         <motion.div className='mb-2 relative' style={{y : fastP}}>
-            <motion.h4 animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:0.8}}>Salut, je suis</motion.h4>
-            <motion.h4 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1}}>Vincent </motion.h4>
-            <motion.h4 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.2}}>Abensour</motion.h4>
-            <motion.h1 className='text-lg sml:text-xl md:text-2xl lgl:text-3xl font-medium text-customwhite' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.4}}>Je suis développeur web</motion.h1>
+            <motion.h4 className='text-xl sml:text-2xl mdl:text-3xl font-medium text-customwhite' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:0.8}}>Vincent Abensour</motion.h4>
+            <motion.h1 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1}}>Développeur Web </motion.h1>
+            <motion.h4 className='gradient-text text-4xl sm:text-5xl sml:text-6xl lg:text-7xl xl:text-8xl font-semibold' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.2}}>Freelance</motion.h4>
+            <motion.h4 className='text-xl sml:text-2xl mdl:text-3xl font-medium text-customwhite' animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.4}}>Je vous accompagne dans vos projets numériques</motion.h4>
         </motion.div>
         <motion.div className='mb-2 relative lg:w-4/5' style={{y : mediumP}} animate={{y:0, opacity:1}} initial={{y:20, opacity:0}} transition={{ease: 'easeInOut', duration:0.5, delay:1.6}}>
             <p>
-                Je suis <span className='text-customtexthighlight'>développeur web fullstack</span> en freelance basé en Haute-Loire et je crée et design des sites responsive. Je suis toujours à l&apos;écoute de nouveaux projets! Si vous avez besoin d&apos;aide pour votre présence sur internet que soit pour un site vitrine ou une application web vous pouvez <a href="mailto:abensour.web@gmail.com" className="text-customtexthighlight">me conctacter</a>!
+                Je suis <span className='text-customtexthighlight'>développeur web fullstack en freelance basé en Haute-Loire</span> et je crée et design des sites responsive. Je suis toujours à l&apos;écoute de nouveaux projets! Si vous avez besoin d&apos;aide pour votre présence sur internet que soit pour un site vitrine ou une application web vous pouvez <a href="mailto:abensour.web@gmail.com" className="text-customtexthighlight">me conctacter</a>!
             </p>
         </motion.div>
         <motion.div className='relative self-center flex flex-col' style={{y : slowP}}>

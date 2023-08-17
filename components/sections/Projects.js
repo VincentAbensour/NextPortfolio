@@ -30,7 +30,7 @@ export default function Projects() {
             <div className='md:border-solid md:col-start-5 md:col-end-13 md:row-span-full md:z-10'>
                 <div className='flex flex-col md:pt-8 lgl:pt-0'>
                     <p className="text-customtexthighlight md:self-end">Projet Professionel</p>
-                    <h3 className='md:self-end'>Cabinet de Kinésithérapie</h3>
+                    <h3 className='md:self-end'>Cabinet Médical</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
                         <p className='md:text-right'>Ce projet est une commande de Frédérique Bernard qui avait besoin d&apos;un site vitrine pour son cabinet de kinésithérapie. Son contenu est facilement modifiable grâce à un accès à la base de donnée via une interface client très intuitive.</p>
                         <br/>

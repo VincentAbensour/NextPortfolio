@@ -61,7 +61,7 @@ body{
   }
 
   .button{
-    @apply bg-gradient-to-l from-gradientblue to-gradientgreen hover:from-blue-900 hover:to-blue-400 text-customdarkblue hover:text-customwhite rounded shadow-md;
+    @apply bg-gradient-to-l from-gradientblue to-gradientgreen hover:from-blue-900 hover:to-blue-400 text-customdarkblue hover:text-customwhite rounded shadow-md duration-500;
     @apply py-3 px-4 sm:py-4 sm:px-6 lgl:py-4 lgl:px-7 text-center;
     @apply text-sm sm:text-base lgl:text-lg;
   }
