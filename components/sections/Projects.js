@@ -47,28 +47,6 @@ export default function Projects() {
 
         <div className='bg-custombluegrey shadow-2xl rounded-sm p-2 my-12 mx-auto w-4/5 max-w-xs md:shadow-none md:bg-transparent md:max-w-5xl md:w-full md:grid md:grid-cols-12 md:mt-8'>
             <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0 transition ease-in-out duration-500' >
-                <img src="/projects/climbing-website.png" alt='Screen shot of the loginpage from the chat project' className={`row-span-full col-span-full`}/>
-            </div>
-            <div className='md:border-solid md:col-start-5 md:col-end-13 md:row-span-full md:z-10'>
-                <div className='flex flex-col md:pt-8 lgl:pt-0'>
-                    <p className="text-customtexthighlight md:self-end">Projet Personnel</p>
-                    <h3 className='md:self-end'>Salle d&apos;Escalade</h3>
-                    <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Un template de site vitrine à partir du travail d&apos;une créatrice de chaussures artisanales. Le template comprend une page d&apos;accueil, une page pour les produits et le nécessaire pour un compte client.</p>
-                        <br/>
-                        <p className='md:text-right'> Une application créée avec <span className="text-customtexthighlight">Next.js</span> et <span className="text-customtexthighlight">Tailwind.CSS</span></p>
-                    </div>
-                    <div className="py-2 md:self-end flex gap-2 items-center">
-                        <a href="https://escalade-virid.vercel.app/">
-                            <BiLinkExternal style={style} size={25}/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='bg-custombluegrey shadow-2xl rounded-sm p-2 my-12 mx-auto w-4/5 max-w-xs md:shadow-none md:bg-transparent md:max-w-5xl md:w-full md:grid md:grid-cols-12 md:mt-8'>
-            <div className='relative hidden md:grid col-start-1 col-end-8 row-span-full self-center grayscale z-0 hover:z-20 hover:grayscale-0 transition ease-in-out duration-500' >
                 <img src="/projects/ecom-abrial.png" alt='Screen shot of the loginpage from the chat project' className={`row-span-full col-span-full`}/>
             </div>
             <div className='md:border-solid md:col-start-5 md:col-end-13 md:row-span-full md:z-10'>
