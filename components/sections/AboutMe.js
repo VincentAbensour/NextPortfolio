@@ -14,7 +14,7 @@ export default function AboutMe() {
             </motion.p>
 
             <motion.p className='mb-4 lg:mb-8' initial={{opacity:0, x:-20}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.2}} viewport={{ once: true }}>Comme la vie est faite de choix, j&apos;ai décidé en 2022 d&apos;en faire un particulèrement important puisque je me suis mis à coder à plein temps.
-                J&apos;ai commencé par Python &#40;probablement par ce que j&apos;aimais bien le nom&#41; et c&apos;était une super aventure. Après quelques petits projets j&apos;ai eu ma première idée de site internet, un site de vente en ligne pour les mairachers avec un dashboard d&apos;aide à la récolte basé sur les paniers commandés par les clients.
+                J&apos;ai commencé par Python &#40;probablement par ce que j&apos;aimais bien le nom&#41; et c&apos;était une super aventure. Après quelques petits projets j&apos;ai eu ma première idée de site internet, un site de vente en ligne pour les maraîchers avec un dashboard d&apos;aide à la récolte basé sur les paniers commandés par les clients.
             </motion.p>
 
             <motion.p className='mb-4 lg:mb-8' initial={{opacity:0, x:20}} whileInView={{opacity: 1, x:0}} transition={{duration:0.5, delay:0.2}} viewport={{ once: true }}>

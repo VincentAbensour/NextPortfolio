@@ -32,7 +32,7 @@ export default function Projects() {
                     <p className="text-customtexthighlight md:self-end">Projet Professionel</p>
                     <h3 className='md:self-end'>Cabinet Médical</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Ce projet est une commande de Frédérique Bernard qui avait besoin d&apos;un site vitrine pour son cabinet de kinésithérapie. Son contenu est facilement modifiable grâce à un accès à la base de donnée via une interface client très intuitive.</p>
+                        <p className='md:text-right'>Ce projet est une commande de Frédérique Bernard qui avait besoin d&apos;un site vitrine pour son cabinet de kinésithérapie. Son contenu est facilement modifiable grâce à un accès à la base de données via une interface client très intuitive.</p>
                         <br/>
                         <p className='md:text-right'> Une application créée avec <span className="text-customtexthighlight">Next.js</span> et <span className="text-customtexthighlight">Tailwind.CSS</span> et <span className="text-customtexthighlight">Strapi</span></p>
                     </div>
@@ -110,8 +110,8 @@ export default function Projects() {
                     <p className="text-customtexthighlight md:self-end">Projet Personnel</p>
                     <h3 className='md:self-end'>Farmer-Ecommerce</h3>
                     <div className='bg-custombluegrey md:shadow-2xl rounded-sm md:p-4 md:self-end'>
-                        <p className='md:text-right'>Un site de vente en ligne créé pour aider des mairachers à vendre leurs paniers de légumes en ligne.
-                            Chaque semaine les clients peuvent se créer un panier dans la limite du stock proposé par le mairacher. Le site fourni un récapitulaitf de récolte et un système d&apos;envoie de mail pour prévenir de la disponibilité des paniers.
+                        <p className='md:text-right'>Un site de vente en ligne créé pour aider des maraîchers à vendre leurs paniers de légumes en ligne.
+                            Chaque semaine les clients peuvent se créer un panier dans la limite du stock proposé par le maraîcher. Le site fourni un récapitulaitf de récolte et un système d&apos;envoie de mail pour prévenir de la disponibilité des paniers.
                         </p>
                         <br/>
                         <p className='md:text-right'>Une application créée avec <span className="text-customtexthighlight">Django</span> et <span className="text-customtexthighlight">Bootstrap</span>.</p>
